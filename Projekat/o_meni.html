@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <title>O meni</title>
+</head>
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .opis {
+        margin-top: 55px;
+        padding-top: 30px;
+    }
+
+    body {
+        background-image: url("Slike/svemir2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .slika1 {
+        height: auto;
+        width: 100%;
+
+    }
+
+    figcaption {
+        background-color: chocolate;
+        color: cornsilk;
+        border: 2px solid darkgoldenrod;
+        border-radius: 5px;
+        margin-left: 100px;
+    }
+
+    .lista1 {
+        list-style-type: disc;
+    }
+
+    .filter {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+
+
+    }
+
+
+    .ostalo {
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 10px;
+        line-height: 20px;
+
+    }
+
+    .knjiga,
+    .fontana {
+        width: 200px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .fontana:hover {
+
+        cursor: grab;
+        opacity: 0.5;
+    }
+
+    .fontana:active {
+        width: 180px;
+    }
+
+    .skola {
+        background-image: linear-gradient(to right, blue, violet);
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #dugme_komentar{
+        margin-left:50%;
+        margin-right:50%;
+    }
+</style>
+
+<body>
+
+    <div class="svega">
+
+        <nav class="navbar bg-dark navbar-expand-md navbar-dark fixed-top">
+
+            <a class="navbar-brand text-success">Vladimir Božić</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="collapse navbar-collapse " id="collapseid">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="o_meni.html">O meni</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projekti.html">Projekti</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid opis">
+
+            <div class="row">
+
+                <div class="col-md-4 offset-md-1 col-sm-12">
+                    <figure>
+                        <img src="Slike/Back to the Future.jpg" alt="slika1"
+                            class="img-thumbnail rounded img-thumbnail slika1">
+                    </figure>
+
+                    <figcaption class="col-6 text-center mx-auto">
+                        Povratak u Budućnost
+                    </figcaption>
+
+                </div>
+
+                <div class="col-md-4 offset-md-2 text-center text-white">
+
+                    <h1 class="text-white-50">O meni</h1>
+
+
+
+                    <ul class="lista1">
+
+                        <li>
+                            <p>Elektroinženjer Energetike,upravo stigao iz budućnosti na kurs Matematičkog
+                                Fakulteta.</p>
+
+
+                        </li>
+
+                        <li>
+                            Rođen sam u Aranđelovcu,pod planinom Bukuljom gde sam i proveo veći deo zivota.Interesuje me
+                            elektrotehnika,muzika,književnost,psihologija,film i jos mnogo sto sta,a po malo sam i
+                            svirao gitaru.
+                        </li>
+
+                        <li>
+                            Trenutno radim na Postrojenju za prečišćavanje vode u Aranđelovcu
+                            kao inženjer na održavanju elektro opreme istog.
+                        </li>
+
+
+                    </ul>
+
+
+
+                    <h3>Postrojenje</h3>
+                    <div class="filter">
+                        <img src="Slike/Fotografije filter/IMG_20190405_120307.jpg"
+                            class="img-fluid rounded filter_slika">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="ostalo">
+                <h1 class=" text-center text-white mt-5">Ostala interesovanja</h1>
+            </div>
+
+            <div class="row mt-4 ">
+
+                <div class="col-md-4">
+                    <h2 class="text-center text-white">Muzika</h2>
+                    <p class="text-center text-white">Omiljena pesma trenutno <br><span
+                            style="font-style: italic;;font-weight: 700;color:black;">-- Lorn-Anvil--</span> </p>
+
+                    <div class="text-center">
+                        <iframe width="90%" height="300" src="https://www.youtube.com/embed/CqaAs_3azSs" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h2 class="text-center text-white">Čitanje</h2>
+                    <p class="text-center text-white">Omiljena knjiga trenutno <br> <span
+                            style="color:chartreuse;font-weight:700; ">--Mari
+                            Luiz von Franc - Senka i zlo u bajkama--</span> </p>
+
+                    <img src="Slike/knjiga_slika.jpg" alt="Knjiga" class="img-fluid knjiga">
+
+
+                </div>
+
+                <div class="col-md-4">
+                    <h2 class="text-center text-white">Filmovi</h2>
+                    <p class="text-center text-white">Omiljeni film trenutno<br><span
+                            style="color:chocolate;font-weight:700; ">--The Fountain-Darren Aronofsky-- </span> </p>
+
+                    <a href="https://www.imdb.com/title/tt0414993/" target="_blank">
+
+                        <img src="Slike/fontana.jpg" class="img-fluid fontana">
+                    </a>
+
+                </div>
+
+
+
+            </div>
+
+            <h1 class="text-light text-center mt-5  skola">Školovanje</h1>
+
+            <div class="row">
+
+                <div class="col-md-8 mx-auto mt-5">
+
+                    <div class="table-responsive text-center mx-auto">
+                        <table class="table table-hover table-striped table-bordered bg-info">
+                            <tr class="thead-dark">
+                                <th>Godina</th>
+                                <th>Iskustvo</th>
+                                <th>Prosek</th>
+                            </tr>
+
+                            <tr>
+                                <td class="align-middle">1994-2002</td>
+                                <td>Završena osnovna škola "Miloš Obrenović" u Aranđelovcu</td>
+                                <td class="align-middle">5.00</td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="align-middle">2002-2006</td>
+                                <td>Završena gimnazija "Miloš Savković" u Aranđelovcu</td>
+                                <td class="align-middle">5.00</td>
+
+                            </tr>
+
+                            <td class="align-middle">2006-2010</td>
+                            <td>Završene osnovne studije Elektrotehničkog fakulteta u Beogradu - Smer Energetika -
+                                Energetski pretvarači i pogoni</td>
+                            <td class="align-middle">8.30</td>
+
+
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="hobi text-center mt-5 text-white">
+                <a href="#dugme" class="btn btn-primary" data-toggle="collapse" style="text-align:center">Hobi,što se
+                    ispod nekog kamena krije</a>
+                <div id="dugme" class="collapse text-center my-3 mx-auto col-md-4 ">
+                    <p class="dugme_komentar ">
+                        Nekada davno sam svirao gitaru,ali je to sada nekako otišlo u pozadinu svakodnevnog
+                        dešavanja,ostalo je samo sećanje,simpatije na prošlo vreme i po neki video snimak.
+                    </p>
+
+                    <iframe width="90%" height="315" src="https://www.youtube.com/embed/bYm3P63DzI8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Vladimir Bozic</h3>
+
+
+
+            <p class="footer-company-name">Industrija zabave &copy; 2019</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Svetogorska 29</span>Srbija,Aranđelovac </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>064/54 63 497</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">vladimir.bozic3@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>O Aranđelovcu</span>
+                Dođite kod nas i nikad nećete želeti da odete.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
